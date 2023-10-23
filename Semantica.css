@@ -1,0 +1,117 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #ccc;
+}
+
+.cabeçario{
+    background-image: url(../imagens-semantica/bg-3.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
+    padding-top:30px;
+}
+
+.conteudo{
+
+margin:120px auto 0 ;
+width: 80%;
+text-align: center;
+color:white;
+
+}
+
+
+.conteudo h1{
+    font-size: 40px;
+    text-shadow: 5px 5px 5px black;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+
+.conteudo p{
+
+    background-color: rgba(0, 0,0, 0.7);
+    text-shadow: 0,0,0.7;
+border-bottom: 3px solid;
+padding: 14px;
+display: inline-block;
+
+
+}
+
+.cabeçario nav ul{
+    margin: 20px 50px 0 0;
+    text-align: right;
+}
+
+.cabeçario nav li{
+
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+    margin-left: 12px;
+}
+
+.cabeçario nav a{
+
+    background-color: rgba(0, 0,0, 0.3);
+    padding: 16px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.cabeçario nav a:hover{
+    background-color:rgba(0, 0,0, 0.8);
+    text-decoration:underline;
+}
+
+main{
+    width: 90%;
+    margin:auto;
+    max-width: 860px;
+}
+
+
+
+article{
+    background-color: white;
+    padding: 16px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+article h2{
+    border-bottom: 2px solid #ccc;
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 0;
+}
+
+.botao{
+background-color:#ccc;
+display: block;
+padding: 12px;
+border-radius:6px;
+margin-left: auto;
+width:fit-content
+
+
+}
+
+.rodape{
+color: white;
+background-color: #696363;
+padding: 25px;
+text-shadow: 2px 2px 2px black;
+text-align: center;
+
+
+
+
+}
